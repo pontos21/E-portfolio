@@ -100,6 +100,9 @@ li{
     flex-direction:column;
     justify-content: center;
     align-items: center;
+    max-width:600px;
+    margin:0 auto;
+    text-align:center;
 }
 
 .about-me__picture--mask {
@@ -119,6 +122,10 @@ li{
 
     transform:scale(1.5);
     padding-top:8px;
+}
+
+.about-me__info--title{
+    margin-bottom:16px;
 }
 
 .about__info--para{
