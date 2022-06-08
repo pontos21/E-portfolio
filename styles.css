@@ -176,7 +176,7 @@ li{
     max-width:100px;
     transition:all 300ms ease;
 }
-.language:hover .language{
+.language:hover .language__img{
     filter:brightness(80%);
     opacity: 0.86;
     transform: scale(0.9); 
