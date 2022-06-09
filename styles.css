@@ -21,6 +21,10 @@ line-height: 1.5;
 font-size:16px;
 }
 
+a{
+    text-decoration: none;
+}
+
 .section:nth-child(even){
     background-color:#f8f8f8;
 }
@@ -307,12 +311,32 @@ footer{
     background-color:#242424;
 }
 
+.footer__logo{
+    margin-bottom:20px;
+}
+
+.footer__social--list{
+    width:100%;
+    max-width:500px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom:28px;
+}
+
 .footer__row{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
     padding:8% 0;
 }
 
 .footer__logo--img{
-    width:70px;
-    height:70px;
+    width:300px;
+    height:300px;
 }
 
+.footer__social--link,
+.footer__copyright{
+    color:#fff;
+}
